@@ -51,6 +51,11 @@ class Person{
             Assignment: =, +=, -=, *=, /=, %=, .=
             Conditional Operator: >, >=, <, <=,==, !=, ===, !===
             Logical Operator : &&, ||, !
+
+            Statement
+                Single
+                Conditional
+                Repeated
         */
 
 
@@ -157,23 +162,14 @@ class Person{
 
         echo $this->x < $this->y;
         echo '<br/>';
-
         echo $this->x <= $this ->y;
         echo '<br/>';
-
-
         echo $this->x == $this->y;
         echo '<br/>';
-
-
         echo $this->x != $this->y;
         echo '<br/>';
-
-
         echo $this->x === $this->y;
         echo '<br/>';
-
-
         echo $this->x !== $this->y;
         echo '<br/>';
 
