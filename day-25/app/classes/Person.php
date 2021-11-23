@@ -56,6 +56,7 @@ class Person{
 
         // Arithmatic Operator
         // Binary
+        echo '<h3>Binary Operator</h3>';
         $this->x =10;
         $this->y = 20;
 
@@ -108,6 +109,9 @@ class Person{
         // Assignment Operator
         echo '<h3>Assignment Operator</h3>';
 
+        $this->x = 10;
+        $this->y = 20;
+
         echo $this->x += $this->y;
         echo '<br/>';
 
@@ -133,6 +137,49 @@ class Person{
 
         echo $this->x .= $this->y;
         echo '<br/>';
+
+
+
+        // Conditional Operator
+        echo '<h3>Conditional Operator</h3>';
+        echo '<br/>';
+
+        $this->x = 10;
+        $this->y = 20;
+
+
+        echo $this->x > $this->y;echo '<br/>';
+        echo $this->x >= $this->y;echo '<br/>';
+        echo $this->y == $this->y;echo '<br/>';
+
+
+        echo '<br/>';
+
+        echo $this->x < $this->y;
+        echo '<br/>';
+
+        echo $this->x <= $this ->y;
+        echo '<br/>';
+
+
+        echo $this->x == $this->y;
+        echo '<br/>';
+
+
+        echo $this->x != $this->y;
+        echo '<br/>';
+
+
+        echo $this->x === $this->y;
+        echo '<br/>';
+
+
+        echo $this->x !== $this->y;
+        echo '<br/>';
+
+
+
+
 
 
     }
