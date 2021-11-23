@@ -53,6 +53,9 @@ class Person{
             Logical Operator : &&, ||, !
         */
 
+
+        // Arithmatic Operator
+        // Binary
         $this->x =10;
         $this->y = 20;
 
@@ -77,6 +80,61 @@ class Person{
 
         echo $this->x % $this->y;
         echo '<br/>';
+
+
+        // unary
+
+        echo $this->x++;
+        echo '<br/>';
+        echo $this->x;
+        echo '<br/>';
+        echo ++$this->x;
+        echo '<br/>';
+
+
+        echo '<h3>Unary Operator</h3>';
+    
+
+
+
+        echo $this->x--;
+        echo '<br/>';
+        echo $this->x;
+        echo '<br/>';
+
+
+
+
+        // Assignment Operator
+        echo '<h3>Assignment Operator</h3>';
+
+        echo $this->x += $this->y;
+        echo '<br/>';
+
+
+        echo $this->x -= $this->y;
+        echo '<br/>';
+
+
+
+
+        echo $this->x *= $this->y;
+        echo '<br/>';
+
+
+        echo $this->x /= $this->y;
+        echo '<br/>';
+
+
+        echo $this->x %= $this->y;
+        echo '<br/>';
+
+
+
+        echo $this->x .= $this->y;
+        echo '<br/>';
+
+
     }
 
 
