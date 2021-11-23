@@ -194,30 +194,33 @@ class Person{
 
 
 
-        if($this->x == $this->y)
-        {
-            echo 'Hello World';
-        }echo '<br/>';
+
+            if($this->x == $this->y)
+            {
+                echo 'Hello World';
+            }echo '<br/>';
 
 
-        if($this->x > $this->y)
-        {
-            echo 'Hello';
-        }else{
-            echo 'Hello BITM';
-        }echo '<br/>';
+            if($this->x > $this->y)
+            {
+                echo 'Hello';
+            }else{
+                echo 'Hello BITM';
+            }echo '<br/>';
 
 
-        if($this->x > $this->y)
-        {
-            echo 'hello World';
-        }
-        else if($this->x > $this->y)
-        {
-            echo 'Hello Bangladesh';
-        }else{
-            echo 'Hello BITM';
-        }
+            if($this->x > $this->y)
+            {
+                echo 'hello World';
+            }
+            else if($this->x > $this->y)
+            {
+                echo 'Hello Bangladesh';
+            }else{
+                echo 'Hello BITM';
+            }echo '<br/>';
+
+
 
 
 
