@@ -183,6 +183,44 @@ class Person{
 
 
 
+        // Statemtnt
+        echo '</h3>Statement</h3>';
+        echo '<br/>';
+
+
+        $this->x = 20;
+        $this->y = 20;
+        $this->z = 10;
+
+
+
+        if($this->x == $this->y)
+        {
+            echo 'Hello World';
+        }echo '<br/>';
+
+
+        if($this->x > $this->y)
+        {
+            echo 'Hello';
+        }else{
+            echo 'Hello BITM';
+        }echo '<br/>';
+
+
+        if($this->x > $this->y)
+        {
+            echo 'hello World';
+        }
+        else if($this->x > $this->y)
+        {
+            echo 'Hello Bangladesh';
+        }else{
+            echo 'Hello BITM';
+        }
+
+
+
 
 
 
