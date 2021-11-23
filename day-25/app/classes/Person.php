@@ -55,7 +55,15 @@ class Person{
             Statement
                 Single
                 Conditional
+                    IF
+                    IF ELSE
+                    IF ELSE IF
+                    SWITCH
                 Repeated
+                    FOR
+                    WHILE
+                    DO WHILE
+                    FOR EACH
         */
 
 
