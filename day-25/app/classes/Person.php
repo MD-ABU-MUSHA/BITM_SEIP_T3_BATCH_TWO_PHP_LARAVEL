@@ -184,7 +184,7 @@ class Person{
 
 
         // Statemtnt
-        echo '</h3>Statement</h3>';
+        echo '<h3>Statement</h3>';
         echo '<br/>';
 
 
@@ -219,6 +219,25 @@ class Person{
             }else{
                 echo 'Hello BITM';
             }echo '<br/>';
+            echo '<br/>';
+            echo '<br/>';
+
+
+
+            // Switch
+            switch($this->z){
+                case 5: echo 'Hello World!';
+                break;
+
+                case 10: echo 'Hello BITM Youu can take rest...!';
+                break;
+
+                case 15: echo 'Hi There';
+                break;
+
+                default : echo "IT's default string";
+                
+            }
 
 
 
