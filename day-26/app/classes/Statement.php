@@ -12,6 +12,7 @@ namespace App\classes;
 
 class Statement{
     public $i;
+    public $data = [];
 
     // for loop
     public function forLoop()
@@ -28,11 +29,22 @@ class Statement{
         // }
 
 
-        $this->i = 10;
-        do{
-            echo $this->i.' ';
-            $this->i++;
-        }while($this->i < 20);
+        // $this->i = 10;
+        // do{
+        //     echo $this->i.' ';
+        //     $this->i++;
+        // }while($this->i < 20);
+
+
+
+        $this->data = [10, 20, 30, 'Habib', 123.25, true];
+        // echo $this->data[11];
+
+        foreach($this->data as $item)
+        {
+            echo $item.' ';
+        }
+
 
     }
 
