@@ -21,11 +21,18 @@ class Statement{
         //     echo 'hello World <br/>';
         // }
 
+        // $this->i = 10;
+        // while($this->i <20){
+        //     echo $this->i.' ';
+        //     $this->i++;
+        // }
+
+
         $this->i = 10;
-        while($this->i <20){
+        do{
             echo $this->i.' ';
             $this->i++;
-        }
+        }while($this->i < 20);
 
     }
 
