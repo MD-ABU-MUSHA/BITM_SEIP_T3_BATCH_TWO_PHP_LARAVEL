@@ -4,7 +4,7 @@ namespace App\classes;
 class Example{
 
 
-    public function index()
+    public function hello()
     {
         echo 'Hello World';
     }

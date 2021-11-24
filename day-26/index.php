@@ -2,20 +2,12 @@
 require_once './vendor/autoload.php';
 
 use App\classes\Example;
-use App\classes\User;
-use App\classes\Person;
+use App\classes\Statement;
 
-// $example = new Example();
-// $example->index();
+$example = new Example();
 
-// echo '<br/>';
-// echo '<br/>';
+//echo $example->hello();
 
-// $user = new User();
-// $user-> login();
+$loop = new Statement();
 
-// echo '<br/>';
-// echo '<br/>';
-
-$person = new Person();
-$person->index();
+$loop->forLoop();
