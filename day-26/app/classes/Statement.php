@@ -37,13 +37,54 @@ class Statement{
 
 
 
-        $this->data = [10, 20, 30, 'Habib', 123.25, true];
+        // $this->data = [10, 20, 30, 'Habib', 123.25, true];
         // echo $this->data[11];
 
-        foreach($this->data as $item)
-        {
-            echo $item.' ';
+        // foreach($this->data as $item)
+        // {
+        //     echo $item.' ';
+        // }
+
+
+
+        $this->data = [
+            0 =>[
+            'name' => 'Musha',
+            'mobile' => '01793822069',
+            'email' => 'abumusaa787@gmail.com'
+            ],
+
+            1 =>[
+            'name' => 'Habib',
+            'mobile' => '01793822069',
+            'email' => 'abumusaa787@gmail.com'
+            ],
+
+            2 =>[
+            'name' => 'Rafsan',
+            'mobile' => '01793822069',
+            'email' => 'abumusaa787@gmail.com'
+            ]
+        ];
+
+
+        // echo $this->data['name'];
+
+        // echo $this->data[1]['name'];
+
+
+        foreach($this->data as $item){
+            // echo $item['name'].' '.$item['mobile'].' '.$item['email'].'<br/>';
+
+            foreach($item as $value){
+                echo $value.' ';
+            }
+            echo '<br/>';
         }
+
+        // foreach($this->data[2] as $key => $item){
+        //     echo $key.' = '.$item.'<br/>';
+        // }
 
 
     }
