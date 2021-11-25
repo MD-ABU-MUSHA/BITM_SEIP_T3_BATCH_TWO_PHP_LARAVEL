@@ -24,7 +24,7 @@ class Person{
         // $this->number = 1234;
         // $this->float = 12.20;
         // $this->boolean = true;
-        // // echo $this->firstName.' '.$this->lastName;
+        // echo $this->firstName.' '.$this->lastName;
 
         // echo gettype($this->firstName);
 
