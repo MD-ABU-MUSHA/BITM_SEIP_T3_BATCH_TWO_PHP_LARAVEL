@@ -117,4 +117,17 @@ class Pattern
         echo '<br/>';
     }
    }
+   public function patternFour()
+   {
+       for($this->i = 1; $this->i <= $this->n; $this->i++){
+           for($this->j=1; $this->j <= $this->n; $this->j++){
+             if($this->j == $this->i){
+                echo '&#9733;';
+             }else{
+                 echo '&nbsp;&nbsp;';
+             }
+           }
+           echo '<br/>';
+       }
+   }
 }

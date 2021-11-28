@@ -12,6 +12,8 @@ use App\classes\Pattern;
 $p = new Pattern();
 $print = $p->patternThree();
 echo '<hr/>';
+$print = $p->patternFour();
+echo '<hr/>';
 $print = $p->patternOne();
 $print = $p->patternTwo();
 
