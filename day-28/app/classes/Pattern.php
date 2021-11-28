@@ -11,12 +11,12 @@ class Pattern
 
    public $i;
    public $j;
-   public $n;
+   public $n=5;
 
    public function patternOne()
    {
 
-    $this->n = 4;
+  
 
     for($this->i = 1; $this->i <= $this->n; $this->i++)
     {
@@ -24,34 +24,15 @@ class Pattern
         {
            if( ($this->j >= $this->n - ($this->i - 1)) && ($this->j <= $this->n + ($this->i - 1)) )
             {   
-                echo '+';
+                echo '&#9734;';
             } 
             else{
-                echo '&nbsp;&nbsp;';
+                echo ' &nbsp;&nbsp;';
             }
         }
         echo '</br>';
     }
-
-    echo '<br/>';
-
-    echo '<hr/>';
-
-
-    for($this->i = $this->n; $this->i >= 0; $this->i--)
-    {
-        for($this->j = 1; $this->j <= ($this->n*2) -1; $this->j++)
-        {
-           if( ($this->j >= $this->n - ($this->i - 1)) && ($this->j <= $this->n + ($this->i - 1)) )
-            {   
-                echo '+';
-            } 
-            else{
-                echo '&nbsp;&nbsp;';
-            }
-        }
-        echo '</br>';
-    }
+    
 
   
     
@@ -64,17 +45,76 @@ class Pattern
     //        }echo '</br>';
     //    }
 
-       echo '<hr/>';
+    //    echo '<hr/>';
 
-       echo '<pre>';
-      echo'
-              *
-             ***
-            *****
-           *******';
-        echo '</pre>';
+    //    echo '<pre>';
+    //   echo'
+    //           *
+    //          ***
+    //         *****
+    //        *******';
+    //     echo '</pre>';
 
 
 
+   }
+
+
+
+   public function patternTwo()
+   {
+    
+
+    for($this->i = 1; $this->i <= $this->n; $this->i++)
+    {
+        for($this->j = 1; $this->j <= ($this->n*2) -1; $this->j++)
+        {
+           if( ($this->j >= $this->n - ($this->i - 1)) && ($this->j <= $this->n + ($this->i - 1)) )
+            {   
+                echo '&#9733;';
+            } 
+            else{
+                echo ' &nbsp;&nbsp;';
+            }
+        }
+        echo '</br>';
+    }
+    for($this->i = $this->n-1; $this->i >= 0; $this->i--)
+    {
+        for($this->j = 1; $this->j <= ($this->n*2) -1; $this->j++)
+        {
+           if( ($this->j >= $this->n - ($this->i - 1)) && ($this->j <= $this->n + ($this->i - 1)) )
+            {   
+                echo '&#9733;';
+            } 
+            else{
+                echo ' &nbsp;&nbsp;';
+            }
+        }
+        echo '</br>';
+    }
+   }
+
+
+
+
+   public function patternThree()
+   {
+    for($this->i=1; $this->i <= $this->n; $this->i++){
+        for($this->j = 1; $this->j <= $this->n; $this->j++){
+            if($this->i == 1 || $this->i == $this->n){
+                echo '&#9733;';
+            }else{
+               if($this->j == 1 || $this->j == $this->n){
+                echo '&#9733;';
+               }else{
+                   echo ' &nbsp;&nbsp;';
+               }
+            }
+            
+        }
+        
+        echo '<br/>';
+    }
    }
 }
