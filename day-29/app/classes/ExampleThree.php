@@ -14,11 +14,7 @@ class ExampleThree
 
     public function __construct($data)
     {
-        $this->result = $data;
-        $this->name = $data['name'];
-        $this->email = $data['email'];
-        $this->mobile = $data['mobile'];
-        $this->subject = $data['subject'];
+        $this->result = $data;     
     }
 
     public function index()
