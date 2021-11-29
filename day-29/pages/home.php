@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,7 +46,7 @@
                                 <div class="form-group row">
                                     <label for="" class="col-form-label col-md-3">Result</label>
                                     <div class="col-md-9">
-                                    <textarea class="form-control"><?php echo $result; ?></textarea>
+                                    <textarea class="form-control"><?php if(isset($result)) {echo $result['total_word']."\n".$result['total_character'];} ?></textarea>
                                     </div>
                                 </div>
                                 <div class="form-group row">
