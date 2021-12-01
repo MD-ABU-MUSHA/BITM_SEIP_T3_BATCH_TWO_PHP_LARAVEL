@@ -17,7 +17,7 @@ if(isset($_POST['btn']))
 
 elseif (isset($_POST['btn1']))
 {
-    $imageUpload = new ImageUpload($_POST);
+    $imageUpload = new ImageUpload($_POST, $_FILES);
     $result = $imageUpload->index();
     include 'example-two.php';
 }
