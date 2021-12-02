@@ -16,14 +16,20 @@
                                 <th>Name</th>
                                 <th>Email</th>
                                 <th>Mobile</th>
+                                <th>Image</th>
                             </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                            <?php foreach ($students as $student){ ?>
+                            <tr class="text-center">
+                                <td><?php echo $student['name']; ?></td>
+                                <td><?php echo $student['email']; ?></td>
+                                <td><?php echo $student['mobile']; ?></td>
+                                <td>
+                                    <img src=" <?php echo $student['image']; ?>" height="80" width="120"/>
+                                </td>
                             </tr>
+                            <?php } ?>
                             </tbody>
                         </table>
                     </div>

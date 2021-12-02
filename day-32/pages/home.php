@@ -9,7 +9,18 @@
                         <h3>Please fill All the Information</h3>
                     </div>
                     <div class="card-body">
-                        <form action="action.php" method="POST">
+
+                        <?php if(isset($messege)) {?>
+
+                            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                <strong><?php echo $messege ?></strong>
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                        <?php } ?>
+                        <form action="action.php" method="POST" enctype="multipart/form-data">
                             <div class="form-group row">
                                 <label for="name" class="col-form-label col-md-3">Name</label>
                                 <div class="col-md-9">
@@ -26,6 +37,12 @@
                                 <label for="mobile" class="col-form-label col-md-3">Mobile</label>
                                 <div class="col-md-9">
                                     <input type="number" id="mobile" name="mobile" class="form-control"/>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="image" class="col-form-label col-md-3">Image</label>
+                                <div class="col-md-9">
+                                    <input type="file" id="image" name="image" class="form-control-file"/>
                                 </div>
                             </div>
                             <div class="form-group row">
