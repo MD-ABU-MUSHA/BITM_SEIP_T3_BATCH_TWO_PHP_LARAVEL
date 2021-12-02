@@ -47,6 +47,10 @@ class ImageUpload
                 if($this->fileType == 'jpg' || $this->fileType == 'png')
                 {
                     move_uploaded_file($this->file['image']['tmp_name'],$this->directory);
+                    return[
+                        'name' => $this->post['name'],
+                        'image' =>$this->directory,
+                    ];
                 }else{
                     echo 'Faizlami Paisen JPG $ PNG File Den MIA....';
                 }
