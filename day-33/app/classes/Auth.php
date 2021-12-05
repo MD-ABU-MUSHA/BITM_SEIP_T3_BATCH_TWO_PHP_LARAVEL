@@ -31,6 +31,8 @@ class Auth
         $this->userEmail = 'admin@admin.com';
         $this->userPassword = '123456';
         if($this->email == $this->userEmail && $this->password == $this->userPassword){
+            session_start();
+            $_SESSION['id']= rand(100, 500);
             header("Location: home.php");
         }else{
             return 'Invalid email or Password ';
@@ -40,6 +42,8 @@ class Auth
 
     public function logout()
     {
+        session_start();
+        unset($_SESSION['id']);
         header('Location: ../index.php');
     }
 
