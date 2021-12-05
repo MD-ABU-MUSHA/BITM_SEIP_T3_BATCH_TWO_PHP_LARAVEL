@@ -13,6 +13,8 @@
 </head>
 <body>
 
+<?php if(isset($_SESSION['id'])) { ?>
+
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <div class="container">
         <a href="" class="navbar-brand">LOGO</a>
@@ -27,3 +29,5 @@
         </div>
     </div>
 </nav>
+
+<?php } ?>
