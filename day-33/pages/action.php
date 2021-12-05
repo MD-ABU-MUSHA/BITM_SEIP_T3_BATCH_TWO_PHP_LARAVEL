@@ -26,6 +26,17 @@ else if(isset($_POST['loginBtn']))
    include 'login.php';
 }
 
+else if(isset($_GET['status']))
+{
+    if($_GET['status'] == 'logout')
+    {
+        $auth = new Auth();
+        $auth->logout();
+    }
+}
+
+
+
 
 
 

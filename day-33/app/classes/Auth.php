@@ -36,4 +36,11 @@ class Auth
             return 'Invalid email or Password ';
         }
     }
+
+
+    public function logout()
+    {
+        header('Location: ../index.php');
+    }
+
 }
