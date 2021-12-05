@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc1e3843-ca9b-47ad-b8f9-d479e2de2c1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day-33/app/classes/primeNumber.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-33/pages/action.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-33/pages/prime.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/start-file.zip" beforeDir="false" />
-    </list>
+    <list default="true" id="bc1e3843-ca9b-47ad-b8f9-d479e2de2c1d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day-33/app/classes/Auth.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+            <state relative-caret-position="326">
+              <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -229,18 +223,18 @@
       <workItem from="1638346379990" duration="9304000" />
       <workItem from="1638357717651" duration="542000" />
       <workItem from="1638431602659" duration="10890000" />
-      <workItem from="1638689841042" duration="7183000" />
+      <workItem from="1638689841042" duration="7428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40921000" />
+    <option name="totallyTimeSpent" value="41166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19266056" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19266056" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -559,8 +553,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day-33/app/classes/Auth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        <state relative-caret-position="326">
+          <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
         </state>
       </provider>
     </entry>
