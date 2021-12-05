@@ -20,6 +20,7 @@
 
             <li><a href="prime.php" class="nav-link">prime Number</a></li>
             <li><a href="series.php" class="nav-link">Series Problem</a></li>
+            <li><a href="action.php?status=logout" class="nav-link">Logout</a></li>
 
         </div>
     </div>

@@ -1,6 +1,8 @@
 <?php include  'include/header.php'; ?>
 
 
+
+
 <section class="py-5">
     <div class="container">
         <div class="row">
@@ -10,6 +12,7 @@
                         <h3>Login Form</h3>
                     </div>
                     <div class="card-body">
+                        <h3 class="text-center text-danger"><?php echo isset($message) ? $message : ''; ?></h3>
                         <form action="action.php" method="POST">
                             <div class="form-group row">
                                 <label for="" class="col-form-label col-md-3">Email</label>

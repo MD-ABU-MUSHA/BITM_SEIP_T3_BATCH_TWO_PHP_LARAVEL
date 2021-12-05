@@ -22,8 +22,13 @@ if(isset($_POST['primeBtn']))
 else if(isset($_POST['loginBtn']))
 {
     $auth = new Auth($_POST);
-    $auth->login();
+   $message = $auth->login();
+   include 'login.php';
 }
+
+
+
+
 
 
 else{

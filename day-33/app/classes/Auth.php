@@ -33,7 +33,7 @@ class Auth
         if($this->email == $this->userEmail && $this->password == $this->userPassword){
             header("Location: home.php");
         }else{
-            echo 'Sorry your email address or password is invalid';
+            return 'Invalid email or Password ';
         }
     }
 }
