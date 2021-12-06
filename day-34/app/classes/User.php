@@ -21,4 +21,27 @@ class User
         $this->email = 'info@bitm.org.bd';
         return "User name is $this->name and email address is $this->email";
     }
+
+
+    public  function getAllUser()
+    {
+        return[
+            0 => [
+                'id' => 1,
+                'name' => 'Musha',
+                'email' => 'musa@gmail.com',
+                'password' => '123456'
+            ],
+
+
+            1 => [
+                'id' => 2,
+                'name' => 'karim',
+                'email' => 'karim@gmail.com',
+                'password' => '111222'
+            ],
+
+
+        ];
+    }
 }

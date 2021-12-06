@@ -6,19 +6,24 @@ require_once './vendor/autoload.php';
 
 use App\classes\Teacher;
 use App\classes\Home;
+use App\classes\Auth;
 
 
 
 
 $teacher = new Teacher();
-$teacher->view();
+//$teacher->view();
+
+
+$auth = new Auth();
+$auth->index();
 
 
 
 
 //$teacher->one();
 //$teacher->twenty();
-$teacher->ten();
+//$teacher->ten();
 
 //$home = new Home();
 //$home->index();
