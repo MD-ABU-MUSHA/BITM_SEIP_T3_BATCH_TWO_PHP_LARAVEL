@@ -5,8 +5,8 @@ require_once './vendor/autoload.php';
 
 
 use App\classes\Teacher;
-use App\classes\ExampleOne;
 use App\classes\Home;
+
 
 
 
@@ -15,13 +15,10 @@ $teacher->view();
 
 
 
-$example = new ExampleOne();
-$example->one();
 
-
-$teacher = new Teacher();
-$teacher->one();
-
+//$teacher->one();
+//$teacher->twenty();
+$teacher->ten();
 
 //$home = new Home();
 //$home->index();
