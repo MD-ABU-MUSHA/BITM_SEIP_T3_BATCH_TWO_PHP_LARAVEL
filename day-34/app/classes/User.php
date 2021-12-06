@@ -42,6 +42,14 @@ class User
             ],
 
 
+            2 => [
+                'id' => 3,
+                'name' => 'Musha',
+                'email' => 'Mushakahan@gmail.com',
+                'password' => '444444'
+            ],
+
+
         ];
     }
 }

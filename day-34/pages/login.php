@@ -9,6 +9,7 @@
                         <h3>Login Form</h3>
                     </div>
                     <div class="card-body">
+                        <h1><?php echo isset($message) ? $message : ''; ?></h1>
                         <form action="action.php" method="POST" class="">
                             <div class="form-group row">
                                 <label for="" class="col-form-label col-md-3">Email</label>

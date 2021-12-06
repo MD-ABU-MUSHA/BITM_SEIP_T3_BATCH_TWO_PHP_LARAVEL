@@ -7,6 +7,7 @@ use App\classes\Auth;
 
 if(isset($_POST['btn'])) {
     $auth = new Auth($_POST);
-    $auth->login();
+   $message =  $auth->login();
+   include ('login.php');
 }
 

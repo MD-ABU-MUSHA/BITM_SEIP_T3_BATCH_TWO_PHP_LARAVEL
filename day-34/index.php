@@ -17,6 +17,7 @@ $teacher = new Teacher();
 
 $auth = new Auth();
 $auth->index();
+$auth->login();
 
 
 
