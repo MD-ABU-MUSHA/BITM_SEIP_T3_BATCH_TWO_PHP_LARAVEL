@@ -19,6 +19,7 @@ if(isset($_POST['btn']))
     if($_GET['status'] == 'manage')
     {
         $student = new Student();
-        $student->getAllStudentInfo();
+      $students =   $student->getAllStudentInfo();
+      include  'manage.php';
     }
 }

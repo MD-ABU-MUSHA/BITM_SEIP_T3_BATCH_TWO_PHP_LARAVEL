@@ -16,6 +16,10 @@ class Student
     private $link;
     private $sql;
     private $imgURL;
+    private $data = [];
+    private $row;
+    private $i;
+
 
     private $queryResult;
 
@@ -75,9 +79,23 @@ class Student
                if(mysqli_query($this->link, $this->sql))
                {
                    $this->queryResult = mysqli_query($this->link, $this->sql);
-                   echo '<pre>';
-                   print_r($this->queryResult);
-                   echo '</pre>';
+
+
+                  $this->i =0;
+                  while($this->row = mysqli_fetch_assoc($this->queryResult))
+                  {
+                      $this->data[$this->i]['id'] = $this->row['id'];
+                      $this->data[$this->i]['name'] = $this->row['name'];
+                      $this->data[$this->i]['email'] = $this->row['email'];
+                      $this->data[$this->i]['mobile'] = $this->row['mobile'];
+                      $this->data[$this->i]['image'] = $this->row['image'];
+                      $this->i++;
+
+                  }return $this->data;
+
+//                   echo '<pre>';
+//                   print_r($this->data);
+//                   echo '</pre>';
                }else{
                    die('Query Problem..'.mysqli_error($this->link));
                }
