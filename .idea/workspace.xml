@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc1e3843-ca9b-47ad-b8f9-d479e2de2c1d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-35/New Text Document.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-35/assets/img/upload/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-35/assets/img/upload/download (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-35/assets/img/uploadApsara_Absolute_1024x1024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-35/assets/img/uploadBITM Banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-35/app/classes/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-35/app/classes/Home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day-35/app/classes/Person.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-35/app/classes/Person.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day-35/pages/action.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-35/pages/action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-35/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/day-35/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-35/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-35/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day-35/pages/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-35/pages/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-35/pages/include/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-35/pages/include/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-35/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-35/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-35/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-35/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-35/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-35/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/app/classes/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-36/app/classes/Student.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,11 +46,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day-36/pages/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+            <state relative-caret-position="493">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day-36/app/classes/Student.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -57,7 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day-30/pages/action.php" />
         <option value="$PROJECT_DIR$/day-30/pages/example-two.php" />
         <option value="$PROJECT_DIR$/day-30/app/classes/ImageUpload.php" />
         <option value="$PROJECT_DIR$/day-31/composer.json" />
@@ -108,6 +127,7 @@
         <option value="$PROJECT_DIR$/day-35/pages/action.php" />
         <option value="$PROJECT_DIR$/day-35/pages/home.php" />
         <option value="$PROJECT_DIR$/day-36/pages/home.php" />
+        <option value="$PROJECT_DIR$/day-36/app/classes/Student.php" />
       </list>
     </option>
   </component>
@@ -141,6 +161,19 @@
               <item name="php_laravel_musha" type="b2602c69:ProjectViewProjectNode" />
               <item name="php_laravel_musha" type="462c0819:PsiDirectoryNode" />
               <item name="day-36" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php_laravel_musha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php_laravel_musha" type="462c0819:PsiDirectoryNode" />
+              <item name="day-36" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php_laravel_musha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php_laravel_musha" type="462c0819:PsiDirectoryNode" />
+              <item name="day-36" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="php_laravel_musha" type="b2602c69:ProjectViewProjectNode" />
@@ -197,12 +230,12 @@
       <workItem from="1638689841042" duration="7428000" />
       <workItem from="1638778895650" duration="11971000" />
       <workItem from="1638862397692" duration="6151000" />
-      <workItem from="1638949514046" duration="1095000" />
+      <workItem from="1638949514046" duration="1417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65423000" />
+    <option name="totallyTimeSpent" value="65745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -233,13 +266,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day-31/app/classes/Home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day-31/pages/action.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -591,8 +617,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day-36/pages/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+        <state relative-caret-position="493">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day-36/app/classes/Student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>

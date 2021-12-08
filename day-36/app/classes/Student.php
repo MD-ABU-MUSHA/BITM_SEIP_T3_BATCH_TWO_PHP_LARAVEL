@@ -11,6 +11,17 @@ class Student
     private $password;
     private $mobile;
     private $link;
-    private 
+
+
+    public function __construct($data = null)
+    {
+        if($data)
+        {
+            $this->name = $data['name'];
+            $this->email = $data['email'];
+            $this->password = $data['password'];
+            $this->mobile = $data['mobile'];
+        }
+    }
 
 }
