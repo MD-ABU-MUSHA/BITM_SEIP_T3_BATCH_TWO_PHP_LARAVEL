@@ -17,6 +17,7 @@ class Student
     private $sql;
     private $imgURL;
     private $message;
+    private $queryResult;
 
 
     public function __construct($data = null, $file = null)
@@ -26,7 +27,7 @@ class Student
             $this->name = $data['name'];
             $this->email = $data['email'];
             $this->password = $data['password'];
-            $this->mobile = $data['mobile'];
+            $this->mobile = md5($data['mobile']);
         }
 
         if($file)
@@ -50,12 +51,40 @@ class Student
         $this->link = mysqli_connect('localhost','root','','example_two');
         if($this->link)
         {
-          $this->imgURL =  $this->getImageURL();
+            $this->imgURL =  $this->getImageURL();
             $this->sql = "INSERT INTO students(name, email, password, mobile, image) VALUES ('$this->name','$this->email','$this->password','$this->mobile', '$this->imgURL')";
-        mysqli_query($this->link, $this->sql);
-         $this->message =  'okk';
+
+              if(mysqli_query($this->link, $this->sql))
+              {
+                  return 'Registration Successful';
+              }else{
+                    die('Query Problem..'.mysqli_error($this->link));
+              }
+
         }
-        return $this->message;
+
     }
 
+
+    public function getAllStudentInfo()
+    {
+           $this->link = mysqli_connect('localhost','root','','example_two');
+           if($this->link)
+           {
+               $this->sql = "SELECT * FROM students";
+               if(mysqli_query($this->link, $this->sql))
+               {
+                   $this->queryResult = mysqli_query($this->link, $this->sql);
+                   echo '<pre>';
+                   print_r($this->queryResult);
+                   echo '</pre>';
+               }else{
+                   die('Query Problem..'.mysqli_error($this->link));
+               }
+
+           }
+    }
 }
+
+
+

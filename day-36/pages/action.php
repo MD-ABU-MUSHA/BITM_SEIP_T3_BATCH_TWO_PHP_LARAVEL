@@ -14,5 +14,11 @@ if(isset($_POST['btn']))
     include 'home.php';
 
 
-
+}else if(isset($_GET['status']))
+{
+    if($_GET['status'] == 'manage')
+    {
+        $student = new Student();
+        $student->getAllStudentInfo();
+    }
 }
