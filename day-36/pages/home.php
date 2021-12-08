@@ -33,6 +33,12 @@
                                 </div>
                             </div>
                             <div class="form-group row">
+                                <label for="" class="col-form-label col-md-3">Password</label>
+                                <div class="col-md-9">
+                                    <input type="password" name="password" class="form-control"/>
+                                </div>
+                            </div>
+                            <div class="form-group row">
                                 <label for="" class="col-form-label col-md-3">Mobile</label>
                                 <div class="col-md-9">
                                     <input type="number" name="mobile" class="form-control"/>
@@ -41,7 +47,7 @@
                             <div class="form-group row">
                                 <label for="" class="col-form-label col-md-3"></label>
                                 <div class="col-md-9">
-                                    <input type="submit" name="btn" value="Save Info" class="btn btn-outline-danger btn-block"/>
+                                    <input type="submit" name="btn" value="Register" class="btn btn-outline-danger btn-block"/>
                                 </div>
                             </div>
                         </form>
