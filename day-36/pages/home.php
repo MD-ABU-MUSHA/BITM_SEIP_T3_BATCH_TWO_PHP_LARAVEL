@@ -19,7 +19,7 @@
                             </div>
 
                         <?php } ?>
-                        <form action="action.php"  method="POST">
+                        <form action="action.php"  method="POST" enctype="multipart/form-data">
                             <div class="form-group row">
                                 <label for="" class="col-form-label col-md-3">Name</label>
                                 <div class="col-md-9">

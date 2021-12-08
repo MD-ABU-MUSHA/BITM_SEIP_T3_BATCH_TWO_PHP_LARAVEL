@@ -2,21 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc1e3843-ca9b-47ad-b8f9-d479e2de2c1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day-35/New Text Document.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-35/assets/img/upload/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-35/assets/img/upload/download (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-35/assets/img/uploadApsara_Absolute_1024x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-35/assets/img/uploadBITM Banner.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day-35/app/classes/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-35/app/classes/Home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day-35/app/classes/Person.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-35/app/classes/Person.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day-35/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/day-35/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day-35/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-35/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day-35/pages/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-35/pages/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day-35/pages/include/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-35/pages/include/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day-35/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-35/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day-35/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-35/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day-35/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-35/vendor/composer/autoload_static.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day-36/app/classes/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-36/app/classes/Student.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/1 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/1 (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/360_F_312227790_95AbwvvPH7fSDFFGg5bpw951klMW5934.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/4 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/5 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/6 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/7 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/7 (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/7-7.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/8 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/8 (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/9 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/c-icon1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/c-icon2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/c-icon3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/c-icon4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/c-icon5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/c-icon6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/f-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/f-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/f-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/f-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/f-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/icon-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/icon-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/icon-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/logo-footer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/pexels-pixabay-39691.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/pexels-roman-odintsov-5674479.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/sign.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/sm-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/star.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/assets/img/t-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/pages/action.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-36/pages/action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/pages/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-36/pages/home.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,19 +88,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day-35/app/classes/Home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day-36/pages/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="-255">
+              <caret line="21" column="93" selection-start-line="21" selection-start-column="93" selection-end-line="21" selection-end-column="93" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day-35/pages/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day-36/app/classes/Student.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="346">
+              <caret line="57" column="30" lean-forward="true" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day-36/pages/action.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding>
+                <element signature="e#47#70#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day-35/app/classes/Person.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -77,7 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day-30/pages/example-two.php" />
         <option value="$PROJECT_DIR$/day-30/app/classes/ImageUpload.php" />
         <option value="$PROJECT_DIR$/day-31/composer.json" />
         <option value="$PROJECT_DIR$/day-30/pages/include/footer.php" />
@@ -122,12 +201,13 @@
         <option value="$PROJECT_DIR$/day-35/composer.json" />
         <option value="$PROJECT_DIR$/day-35/pages/include/header.php" />
         <option value="$PROJECT_DIR$/day-35/index.php" />
-        <option value="$PROJECT_DIR$/day-35/app/classes/Person.php" />
         <option value="$PROJECT_DIR$/day-35/app/classes/Home.php" />
         <option value="$PROJECT_DIR$/day-35/pages/action.php" />
-        <option value="$PROJECT_DIR$/day-35/pages/home.php" />
         <option value="$PROJECT_DIR$/day-36/pages/home.php" />
+        <option value="$PROJECT_DIR$/day-36/pages/action.php" />
         <option value="$PROJECT_DIR$/day-36/app/classes/Student.php" />
+        <option value="$PROJECT_DIR$/day-35/app/classes/Person.php" />
+        <option value="$PROJECT_DIR$/day-35/pages/home.php" />
       </list>
     </option>
   </component>
@@ -160,25 +240,12 @@
             <path>
               <item name="php_laravel_musha" type="b2602c69:ProjectViewProjectNode" />
               <item name="php_laravel_musha" type="462c0819:PsiDirectoryNode" />
-              <item name="day-36" type="462c0819:PsiDirectoryNode" />
+              <item name="day-35" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="php_laravel_musha" type="b2602c69:ProjectViewProjectNode" />
               <item name="php_laravel_musha" type="462c0819:PsiDirectoryNode" />
-              <item name="day-36" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php_laravel_musha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php_laravel_musha" type="462c0819:PsiDirectoryNode" />
-              <item name="day-36" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php_laravel_musha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php_laravel_musha" type="462c0819:PsiDirectoryNode" />
-              <item name="day-36" type="462c0819:PsiDirectoryNode" />
+              <item name="day-35" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -230,12 +297,12 @@
       <workItem from="1638689841042" duration="7428000" />
       <workItem from="1638778895650" duration="11971000" />
       <workItem from="1638862397692" duration="6151000" />
-      <workItem from="1638949514046" duration="1417000" />
+      <workItem from="1638949514046" duration="3524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65745000" />
+    <option name="totallyTimeSpent" value="67852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -266,16 +333,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day-31/pages/action.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-          <folding>
-            <element signature="e#49#82#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day-31/app/classes/ImageUpload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -584,30 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day-35/app/classes/Home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day-35/pages/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
-          <folding>
-            <element signature="e#761#768#1#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day-35/app/classes/Person.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day-35/pages/action.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -617,15 +650,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day-36/pages/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="-255">
+          <caret line="21" column="93" selection-start-line="21" selection-start-column="93" selection-end-line="21" selection-end-column="93" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day-36/app/classes/Student.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="346">
+          <caret line="57" column="30" lean-forward="true" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day-36/pages/action.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#47#70#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day-35/app/classes/Person.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day-35/app/classes/Home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day-35/pages/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
         </state>
       </provider>
     </entry>
