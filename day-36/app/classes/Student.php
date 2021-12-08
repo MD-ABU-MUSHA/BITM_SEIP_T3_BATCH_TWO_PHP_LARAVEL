@@ -10,6 +10,9 @@ class Student
     private $email;
     private $password;
     private $mobile;
+    private $imageName;
+    private $file;
+    private $directory;
     private $link;
 
 

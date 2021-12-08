@@ -54,3 +54,7 @@
 
 
 <?php include'include/footer.php' ?>
+<<<<<<< HEAD
+=======
+
+>>>>>>> fc39d5d62c053347a362956649b2119182328f20

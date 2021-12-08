@@ -45,6 +45,12 @@
                                 </div>
                             </div>
                             <div class="form-group row">
+                                <label for="" class="col-form-label col-md-3">Image</label>
+                                <div class="col-md-9">
+                                    <input type="file" name="image" class="form-control"/>
+                                </div>
+                            </div>
+                            <div class="form-group row">
                                 <label for="" class="col-form-label col-md-3"></label>
                                 <div class="col-md-9">
                                     <input type="submit" name="btn" value="Register" class="btn btn-outline-danger btn-block"/>
