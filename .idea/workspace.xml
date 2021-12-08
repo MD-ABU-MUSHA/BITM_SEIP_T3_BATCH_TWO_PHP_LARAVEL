@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc1e3843-ca9b-47ad-b8f9-d479e2de2c1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day-36/pages/manage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-36/pages/edit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day-36/app/classes/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-36/app/classes/Student.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day-36/pages/action.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-36/pages/action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-36/pages/manage.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-36/pages/manage.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,17 +39,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day-36/pages/action.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            <state relative-caret-position="492">
+              <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day-36/pages/edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="969">
+              <caret line="57" column="72" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day-36/pages/manage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="31" column="87" lean-forward="true" selection-start-line="31" selection-start-column="87" selection-end-line="31" selection-end-column="87" />
+            <state relative-caret-position="251">
+              <caret line="28" column="115" selection-start-line="28" selection-start-column="90" selection-end-line="28" selection-end-column="115" />
             </state>
           </provider>
         </entry>
@@ -56,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day-36/app/classes/Student.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="72" column="37" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="37" />
+            <state relative-caret-position="697">
+              <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
             </state>
           </provider>
         </entry>
@@ -74,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day-36/pages/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="748">
               <caret line="44" column="14" selection-end-line="68" />
             </state>
           </provider>
@@ -93,7 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day-30/pages/include/footer.php" />
         <option value="$PROJECT_DIR$/day-30/pages/include/header.php" />
         <option value="$PROJECT_DIR$/day-31/pages/include/header.php" />
         <option value="$PROJECT_DIR$/day-31/pages/include/footer.php" />
@@ -141,9 +150,10 @@
         <option value="$PROJECT_DIR$/day-35/app/classes/Home.php" />
         <option value="$PROJECT_DIR$/day-36/pages/include/header.php" />
         <option value="$PROJECT_DIR$/day-36/pages/home.php" />
+        <option value="$PROJECT_DIR$/day-36/pages/manage.php" />
         <option value="$PROJECT_DIR$/day-36/app/classes/Student.php" />
         <option value="$PROJECT_DIR$/day-36/pages/action.php" />
-        <option value="$PROJECT_DIR$/day-36/pages/manage.php" />
+        <option value="$PROJECT_DIR$/day-36/pages/edit.php" />
       </list>
     </option>
   </component>
@@ -253,18 +263,18 @@
       <workItem from="1638689841042" duration="7428000" />
       <workItem from="1638778895650" duration="11971000" />
       <workItem from="1638862397692" duration="6151000" />
-      <workItem from="1638949514046" duration="10517000" />
+      <workItem from="1638949514046" duration="13546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74845000" />
+    <option name="totallyTimeSpent" value="77874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19266056" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19266056" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -289,13 +299,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day-31/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day-31/pages/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -620,29 +623,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day-36/app/classes/Student.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="72" column="37" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day-36/pages/action.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day-36/pages/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="44" column="14" selection-end-line="68" />
+        <state relative-caret-position="697">
+          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day-36/pages/manage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="31" column="87" lean-forward="true" selection-start-line="31" selection-start-column="87" selection-end-line="31" selection-end-column="87" />
+        <state relative-caret-position="251">
+          <caret line="28" column="115" selection-start-line="28" selection-start-column="90" selection-end-line="28" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day-36/pages/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="14" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day-36/pages/action.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day-36/pages/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="72" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="72" />
         </state>
       </provider>
     </entry>

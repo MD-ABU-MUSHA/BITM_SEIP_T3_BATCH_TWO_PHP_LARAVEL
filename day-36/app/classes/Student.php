@@ -102,6 +102,27 @@ class Student
 
            }
     }
+
+
+    public function delete($id)
+    {
+        $this->link = mysqli_connect('localhost','root','','example_two');
+        $this->sql = "DELETE FROM students WHERE id='$id'";
+        mysqli_query($this->link, $this->sql);
+        header('Location: action.php?status=manage');
+    }
+
+
+    public function getAllStudentInfoById($id)
+    {
+        $this->link = mysqli_connect('localhost','root','','example_two');
+        $this->sql = "SELECT * FROM students WHERE id='$id' ";
+
+        $this->queryResult = mysqli_query($this->link, $this->sql);
+        return mysqli_fetch_assoc($this->queryResult);
+
+
+    }
 }
 
 

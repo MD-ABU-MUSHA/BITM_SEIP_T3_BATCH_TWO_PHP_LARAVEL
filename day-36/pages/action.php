@@ -23,3 +23,15 @@ if(isset($_POST['btn']))
       include  'manage.php';
     }
 }
+else if(isset($_GET['delete']))
+{
+    $student = new Student();
+    $student->delete($_GET['delete']);
+}
+
+else if(isset($_GET['edit']))
+{
+    $student = new Student();
+  $studentInfo =  $student->getAllStudentInfoById($_GET['edit']);
+  include 'edit.php';
+}

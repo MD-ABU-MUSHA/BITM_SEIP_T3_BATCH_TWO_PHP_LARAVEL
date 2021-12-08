@@ -22,14 +22,14 @@
                                 </thead>
                                 <tbody>
                                     <?php foreach ($students as $student) { ?>
-                                        <tr >
+                                        <tr class="text-center " >
                                             <td><?php echo $student['name'] ?></td>
                                             <td><?php echo $student['email'] ?></td>
                                             <td><?php echo $student['mobile'] ?></td>
                                             <td><img src="<?php echo $student['image'] ?>" height="100" width="150"/> </td>
                                             <td>
-                                                <a href="" class="btn btn-outline-info btn-block">Edit</a>
-                                                <a href="" class="btn btn-outline-danger btn-block">Delete</a>
+                                                <a href="action.php?edit=<?php echo $student['id'] ?>" class="btn btn-outline-info btn-block">Edit</a>
+                                                <a href="action.php?delete=<?php echo $student['id']?>" class="btn btn-outline-danger btn-block">Delete</a>
                                             </td>
                                         </tr>
                                     <?php } ?>
