@@ -23,31 +23,31 @@
                             <div class="form-group row">
                                 <label for="" class="col-form-label col-md-3">Name</label>
                                 <div class="col-md-9">
-                                    <input type="text" name="name" class="form-control"/>
+                                    <input type="text" required name="name" class="form-control"/>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label for="" class="col-form-label col-md-3">Email</label>
                                 <div class="col-md-9">
-                                    <input type="email" name="email" class="form-control"/>
+                                    <input type="email" required name="email" class="form-control"/>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label for="" class="col-form-label col-md-3">Password</label>
                                 <div class="col-md-9">
-                                    <input type="password" name="password" class="form-control"/>
+                                    <input type="password" required name="password" class="form-control"/>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label for="" class="col-form-label col-md-3">Mobile</label>
                                 <div class="col-md-9">
-                                    <input type="number" name="mobile" class="form-control"/>
+                                    <input type="number" required name="mobile" class="form-control"/>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label for="" class="col-form-label col-md-3">Image</label>
                                 <div class="col-md-9">
-                                    <input type="file" name="image" class="form-control"/>
+                                    <input type="file" required name="image" class="form-control"/>
                                 </div>
                             </div>
                             <div class="form-group row">

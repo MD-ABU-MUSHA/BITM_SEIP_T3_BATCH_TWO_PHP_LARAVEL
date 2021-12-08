@@ -16,7 +16,7 @@ class Student
     private $link;
     private $sql;
     private $imgURL;
-    private $message;
+
     private $queryResult;
 
 
@@ -26,8 +26,8 @@ class Student
         {
             $this->name = $data['name'];
             $this->email = $data['email'];
-            $this->password = $data['password'];
-            $this->mobile = md5($data['mobile']);
+            $this->password = md5($data['password']);
+            $this->mobile = $data['mobile'];
         }
 
         if($file)
