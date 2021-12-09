@@ -5,6 +5,9 @@ class Auth
 {
     private $email;
     private $password;
+    private $link;
+    private $queryResult;
+    private $sql;
     private $user;
 
 
@@ -13,7 +16,7 @@ class Auth
         if($data)
         {
             $this->email = $data['email'];
-            $this->password = $data['password'];
+            $this->password = md5($data['password']);
         }
     }
 
@@ -26,7 +29,35 @@ class Auth
 
     public function login()
     {
-    echo $this->email.'<br/>'.md5($this->password);
+//    echo $this->email.'<br/>'.md5($this->password);
+        $this->link = mysqli_connect('localhost', 'root', '', 'example_two');
+        if($this->link)
+        {
+            $this->sql = "SELECT * FROM students WHERE email = '$this->email' AND password = '$this->password'";
+            if(mysqli_query($this->link, $this->sql))
+            {
+                $this->queryResult = mysqli_query($this->link, $this->sql);
+                $this->user = mysqli_fetch_assoc($this->queryResult);
+                if($this->user)
+                {
+                   session_start();
+                   $_SESSION['id'] = $this->user['id'];
+                   $_SESSION['name'] = $this->user['name'];
+                   header('Location: dashboard.php');
+
+                }else
+                {
+                    return 'Sorry incorrect email or Password';
+                }
+//                echo '<pre>';
+//                print_r($this->user);
+//                echo '</pre>';
+
+            }else{
+                die('Query Problem...'.mysqli_error($this->link));
+            }
+        }
+
     }
 
 
