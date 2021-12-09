@@ -2,6 +2,7 @@
 
 require_once '../vendor/autoload.php';
 use App\classes\Student;
+use App\classes\Auth;
 
 if (isset($_POST['btn']))
 {
@@ -36,4 +37,8 @@ else if(isset($_POST['updateBtn']))
     $message    = $student->updateStudentInfo($studentInfo);
     $students   = $student->getAllStudentInfo();
     include 'manage.php';
+}else if(isset($_POST['loginBtn']))
+{
+    $auth = new Auth($_POST);
+    $auth->login();
 }
