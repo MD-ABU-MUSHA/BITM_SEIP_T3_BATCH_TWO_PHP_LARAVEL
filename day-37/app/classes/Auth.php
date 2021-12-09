@@ -9,6 +9,7 @@ class Auth
     private $queryResult;
     private $sql;
     private $user;
+    private $user_type;
 
 
     public function __construct($data = null)
@@ -17,6 +18,7 @@ class Auth
         {
             $this->email = $data['email'];
             $this->password = md5($data['password']);
+
         }
     }
 
@@ -43,6 +45,8 @@ class Auth
                    session_start();
                    $_SESSION['id'] = $this->user['id'];
                    $_SESSION['name'] = $this->user['name'];
+                   $_SESSION['user_type'] = $this->user['user_type'];
+
                    header('Location: dashboard.php');
 
                 }else
@@ -63,7 +67,11 @@ class Auth
 
     public function logout()
     {
-
+    session_start();
+    unset($_SESSION['id']);
+    unset($_SESSION['name']);
+    unset($_SESSION['user_type']);
+    header('Location: ../index.php');
     }
 
 

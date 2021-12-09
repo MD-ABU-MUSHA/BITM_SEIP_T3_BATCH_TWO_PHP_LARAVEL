@@ -17,6 +17,10 @@ else if(isset($_GET['status']))
         $student  = new Student();
         $students = $student->getAllStudentInfo();
         include 'manage.php';
+    }else if($_GET['status'] == 'logout')
+    {
+        $auth = new Auth();
+        $auth->logout();
     }
 }
 else if(isset($_GET['delete']))
@@ -40,5 +44,6 @@ else if(isset($_POST['updateBtn']))
 }else if(isset($_POST['loginBtn']))
 {
     $auth = new Auth($_POST);
-    $auth->login();
+  $message =  $auth->login();
+  include 'login.php';
 }

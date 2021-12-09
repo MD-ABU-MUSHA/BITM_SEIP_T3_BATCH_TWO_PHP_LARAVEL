@@ -1,3 +1,4 @@
+<?php  session_start(); ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -9,13 +10,27 @@
     <link rel="stylesheet" href="../assets/css/bootstrap.css"/>
 </head>
 <body>
+<?php  if(isset($_SESSION['id'])) { ?>
+
+
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <div class="container">
         <a href="" class="navbar-brand">LOGO</a>
         <ul class="navbar-nav ml-auto">
+
+            <?php if($_SESSION['user_type'] == 1) {?>
             <li><a href="home.php" class="nav-link">Add Student</a></li>
             <li><a href="action.php?status=manage" class="nav-link">Manage Student</a></li>
+            <?php } else { ?>
+
+                <li><a href="" class="nav-link">Add Subject</a></li>
+                <li><a href="" class="nav-link">My Profile</a></li>
+
+            <?php } ?>
+
             <li><a href="action.php?status=logout" class="nav-link">Logout</a></li>
         </ul>
     </div>
 </nav>
+
+<?php } ?>
