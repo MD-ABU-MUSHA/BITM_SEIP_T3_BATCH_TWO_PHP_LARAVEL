@@ -26,7 +26,7 @@ class Auth
 
     public function login()
     {
-
+    echo $this->email.'<br/>'.$this->password;
     }
 
 
