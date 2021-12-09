@@ -10,7 +10,7 @@
                         <div class="card-body">
                             <h4 class="text-center text-success"><?php echo isset($message) ? $message: ''; ?></h4>
 
-                            <?php session_start(); if(isset($_SESSION['message'])) { ?>
+                            <?php if(isset($_SESSION['message'])) { ?>
                             <h4 class="text-center text-success">
                                 <?php echo $_SESSION['message']; unset($_SESSION['message']); ?>
                             </h4>
