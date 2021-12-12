@@ -26,6 +26,18 @@ else if(isset($_GET['status']))
         $subject = new Subject();
        $students = $subject->index();
        include "add-subject.php";
+    }else if($_GET['status'] == 'my-subject')
+    {
+        $id = $_GET['id'];
+        $subject = new Subject();
+        $subjects = $subject->getMySubject($id);
+        include "my-subject.php";
+//        echo '<pre>';
+//        print_r($subjects);
+//        echo '</pre>';
+//        exit();
+
+
     }
 }
 else if(isset($_GET['delete']))
