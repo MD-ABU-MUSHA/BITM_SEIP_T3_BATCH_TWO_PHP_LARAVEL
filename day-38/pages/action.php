@@ -26,7 +26,31 @@ else if(isset($_GET['status']))
         $subject = new Subject();
        $students = $subject->index();
        include "add-subject.php";
-    }else if($_GET['status'] == 'my-subject')
+    }else if($_GET['status'] == 'manage-subject')
+    {
+        $data = [
+            0 => [
+                'name' => 'Habib',
+                'subject' => ['physics', 'math', 'english'],
+            ],
+
+        1 => [
+            'name' => 'Musha',
+            'subject' => ['Bangla', 'English'],
+    ]
+        ];
+
+        echo '<pre>';
+
+        print_r($data);
+        echo '</pre>';
+        exit();
+        include 'manage-subject.php';
+    }
+
+
+
+    else if($_GET['status'] == 'my-subject')
     {
         $id = base64_decode($_GET['id']);
         $subject = new Subject();
