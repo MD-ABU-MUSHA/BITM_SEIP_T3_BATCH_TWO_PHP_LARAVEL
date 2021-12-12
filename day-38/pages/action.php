@@ -24,7 +24,8 @@ else if(isset($_GET['status']))
     }else if($_GET['status'] == 'add-subject')
     {
         $subject = new Subject();
-        $subject->index();
+       $students = $subject->index();
+       include "add-subject.php";
     }
 }
 else if(isset($_GET['delete']))

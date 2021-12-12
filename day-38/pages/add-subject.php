@@ -25,21 +25,22 @@
                                     <div class="col-md-9">
                                         <select class="form-control" name="">
                                             <option> -- Select Student Name --</option>
-                                            <option value="">Student One</option>
-                                            <option value="">Student Two</option>
+                                            <?php foreach ($students as $student) { ?>
+                                            <option value=""><?php echo $student['name']; ?></option>
+                                            <?php } ?>
                                         </select>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label class="col-form-label col-md-3">Subject Name</label>
                                     <div class="col-md-9">
-                                        <label for=""><input type="checkbox"  name="subject" value="bangla"/>Bangla</label>
-                                        <label for=""><input type="checkbox"  name="subject" value="English"/>English</label>
-                                        <label for=""><input type="checkbox"  name="subject" value="Math"/>Math</label>
-                                        <label for=""><input type="checkbox"  name="subject" value="Physics"/>Physics</label>
-                                        <label for=""><input type="checkbox"  name="subject" value="Chemistry"/>Chemistry</label>
-                                        <label for=""><input type="checkbox"  name="subject" value="Biology"/>Biology</label>
-                                        <label for=""><input type="checkbox"  name="subject" value="Zoology"/>Zoology</label>
+                                        <label for="bangla"><input id="bangla" class="mr-1" type="checkbox"  name="subject" value="bangla"/>Bangla</label>
+                                        <label for="English"><input id="English" class="mr-1" type="checkbox"  name="subject" value="English"/>English</label>
+                                        <label for="Math"><input id="Math" class="mr-1" type="checkbox"  name="subject" value="Math"/>Math</label>
+                                        <label for="Physics"><input id="Physics" class="mr-1" type="checkbox"  name="subject" value="Physics"/>Physics</label>
+                                        <label for="Chemistry"><input id="Chemistry" class="mr-1" type="checkbox"  name="subject" value="Chemistry"/>Chemistry</label>
+                                        <label for="Biology"><input id="Biology" class="mr-1" type="checkbox"  name="subject" value="Biology"/>Biology</label>
+                                        <label for="Zoology"><input id="Zoology" class="mr-1" type="checkbox"  name="subject" value="Zoology"/>Zoology</label>
                                     </div>
                                 </div>
 
