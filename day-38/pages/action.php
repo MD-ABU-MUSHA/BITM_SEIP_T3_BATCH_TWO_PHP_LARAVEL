@@ -51,4 +51,15 @@ else if(isset($_POST['updateBtn']))
     $auth = new Auth($_POST);
   $message =  $auth->login();
   include 'login.php';
+}else if(isset($_POST['subjectBtn']))
+{
+//    echo '<pre>';
+//    print_r($_POST);
+//    echo '</pre>';
+//    exit();
+
+    $subject = new Subject($_POST);
+    $subject->addSubject();
+    $message = "Data Save successfully";
+    include 'add-subject.php';
 }
