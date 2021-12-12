@@ -28,7 +28,7 @@ else if(isset($_GET['status']))
        include "add-subject.php";
     }else if($_GET['status'] == 'my-subject')
     {
-        $id = $_GET['id'];
+        $id = base64_decode($_GET['id']);
         $subject = new Subject();
         $subjects = $subject->getMySubject($id);
         include "my-subject.php";
