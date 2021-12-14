@@ -11,7 +11,7 @@
                         </div>
                         <div class="card-body">
                             <h4 class="text-center text-success"><?php echo isset($message) ? $message: '';?></h4>
-                            <form action="action.php" method="POST" enctype="multipart/form-data">
+                            <form action="action.php" method="POST">
                                 <input type="hidden" name="id" value="<?php echo $studentInfo['id']?>"/>
                                 <div class="form-group row">
                                     <label class="col-form-label col-md-3">Name</label>
@@ -34,9 +34,11 @@
                                 <div class="form-group row">
                                     <label class=" col-md-3">User Type</label>
                                     <div class="col-md-9">
-                                        <label for="Admin"><input type="radio" id="Admin" value="1"  name="user" class="mr-1" />Admin</label>
-                                        <label for="Student"><input type="radio" id="Student" value="2"  name="user" class="mr-1"/>Student</label>
-                                        <label for="Teacher"><input type="radio" id="Teacher" value="3" name="user" class="mr-1"/>Teacher</label>
+                                            
+                                        <label for="Admin"><input type="radio" id="Admin" value="1"  name="users" class="mr-1" />Admin</label>
+                                        <label for="Student"><input type="radio" id="Student" value="2"  name="users" class="mr-1"/>Student</label>
+                                        <label for="Teacher"><input type="radio" id="Teacher" value="3" name="users" class="mr-1"/>Teacher</label>
+
                                     </div>
                                 </div>
                                 <div class="form-group row">

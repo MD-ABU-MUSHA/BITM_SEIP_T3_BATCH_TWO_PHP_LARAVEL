@@ -27,26 +27,11 @@ else if(isset($_GET['status']))
        $students = $subject->index();
        include "add-subject.php";
 
-    }else if($_GET['status'] == 'manage-subject')
+    }else if($_GET['status'] == 'manage-users')
     {
-        $data = [
-            0 => [
-                'name' => 'Habib',
-                'subject' => ['physics', 'math', 'english'],
-            ],
-
-        1 => [
-            'name' => 'Musha',
-            'subject' => ['Bangla', 'English'],
-    ]
-        ];
-
-        echo '<pre>';
-
-        print_r($data);
-        echo '</pre>';
-        exit();
-        include 'manage-subject.php';
+        $student  = new Student();
+        $students = $student->getAllUsersInfo();
+        include 'manage-users.php';
     }
 
 
@@ -55,7 +40,7 @@ else if(isset($_GET['status']))
     {
         $id = base64_decode($_GET['id']);
         $subject = new Subject();
-        $subjects = $subject->getMySubject();
+        $subjects = $subject->getMySubject($id);
         include "my-subject.php";
 //        echo '<pre>';
 //        print_r($subjects);
@@ -89,11 +74,11 @@ else if(isset($_GET['edit']))
 }
 else if(isset($_POST['updateBtn']))
 {
-    $student    = new Student($_POST, $_FILES);
+    $student    = new Student($_POST);
     $studentInfo = $student->getStudentInfoById($_POST['id']);
     $message    = $student->updateStudentInfo($studentInfo);
-    $students   = $student->getAllStudentInfo();
-    include 'manage.php';
+    $students   = $student->getAllUsersInfo();
+    include 'manage-users.php';
 }else if(isset($_POST['loginBtn']))
 {
     $auth = new Auth($_POST);

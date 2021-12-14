@@ -57,12 +57,7 @@ if(!isset($_SESSION['id']))
                                     <label for="Teacher"><input type="radio" id="Teacher" value="3" name="user" class="mr-1"/>Teacher</label>
                                 </div>
                             </div>
-<!--                            <div class="form-group row">-->
-<!--                                <label class="col-form-label col-md-3">Image</label>-->
-<!--                                <div class="col-md-9">-->
-<!--                                    <input type="file" required name="image" class="form-control-file"/>-->
-<!--                                </div>-->
-<!--                            </div>-->
+
                             <div class="form-group row">
                                 <label class="col-form-label col-md-3"></label>
                                 <div class="col-md-9">

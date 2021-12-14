@@ -20,18 +20,17 @@
 
             <?php if($_SESSION['user_type'] == 1) {?>
             <li><a href="home.php" class="nav-link">Add Users</a></li>
-
+                <li><a href="action.php?status=manage-users" class="nav-link">Manage users</a></li>
             <li><a href="action.php?status=add-subject" class="nav-link">Add Subject</a></li>
             <li><a href="#" class="nav-link">Manage Teacher</a></li>
             <?php } else if(($_SESSION['user_type'] == 2)) { ?>
 
                 <li><a href="action.php?status=my-subject&id=<?php echo base64_encode($_SESSION['id']); ?>" class="nav-link">MY Subject</a></li>
-                <li><a href="" class="nav-link">My Profile</a></li>
+
 
             <?php } else { ?>
 
-                <li><a href="action.php?status=manage" class="nav-link">Manage Users</a></li>
-                <li><a href="" class="nav-link">My Profile</a></li>
+                <li><a href="action.php?status=manage" class="nav-link">Manage Student</a></li>
 
             <?php } ?>
 
