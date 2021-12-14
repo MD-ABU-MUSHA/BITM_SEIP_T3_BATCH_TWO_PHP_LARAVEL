@@ -34,7 +34,7 @@
                                 <div class="form-group row">
                                     <label class=" col-md-3">User Type</label>
                                     <div class="col-md-9">
-                                            
+
                                         <label for="Admin"><input type="radio" id="Admin" value="1"  name="users" class="mr-1" />Admin</label>
                                         <label for="Student"><input type="radio" id="Student" value="2"  name="users" class="mr-1"/>Student</label>
                                         <label for="Teacher"><input type="radio" id="Teacher" value="3" name="users" class="mr-1"/>Teacher</label>
