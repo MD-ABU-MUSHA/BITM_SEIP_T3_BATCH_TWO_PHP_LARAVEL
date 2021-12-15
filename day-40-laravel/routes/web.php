@@ -13,27 +13,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-//    return "Hello World";
-    return view('test');
-});
-
-
-Route::get('/bitm', [
-    'uses' => 'App\Http\Controllers\TestController@index',
-    'as' => 'Bitm'
-]);
-
-Route::get('/all-catagory', [
-    'uses' => 'App\Http\Controllers\TestController@catagory',
+Route::get('/',[
+    'uses' => 'App\Http\Controllers\HomeController@index',
     'as' => 'Bitm'
 ]);
 
 
-
-Route::get('/basis/seip', [
-    'uses' => 'App\Http\Controllers\TestController@basisSeip',
-    'as' => 'basis'
+Route::get('/about-us',[
+    'uses' => 'App\Http\Controllers\HomeController@about',
+    'as' => 'about-us'
 ]);
+
+Route::get('/register-now',[
+    'uses' => 'App\Http\Controllers\HomeController@registration',
+    'as' => 'registration'
+]);
+
 
 
