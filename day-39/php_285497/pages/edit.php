@@ -35,9 +35,15 @@
                                     <label class=" col-md-3">User Type</label>
                                     <div class="col-md-9">
 
+<<<<<<< HEAD
                                         <label for="Admin"><input type="radio" id="Admin" value="1"  name="user" class="mr-1" />Admin</label>
                                         <label for="Student"><input type="radio" id="Student" value="2"  name="user" class="mr-1"/>Student</label>
                                         <label for="Teacher"><input type="radio" id="Teacher" value="3" name="user" class="mr-1"/>Teacher</label>
+=======
+                                        <label for="Admin"><input type="radio" id="Admin" value="1"  name="users" class="mr-1" />Admin</label>
+                                        <label for="Student"><input type="radio" id="Student" value="2"  name="users" class="mr-1"/>Student</label>
+                                        <label for="Teacher"><input type="radio" id="Teacher" value="3" name="users" class="mr-1"/>Teacher</label>
+>>>>>>> 08c7d7c576bbda7a11b59da7902664eaf01bc4da
 
                                     </div>
                                 </div>

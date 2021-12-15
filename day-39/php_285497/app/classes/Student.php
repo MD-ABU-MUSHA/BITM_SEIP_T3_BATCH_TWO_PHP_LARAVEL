@@ -29,7 +29,11 @@ class Student
             }
             $this->email    = $data['email'];
             $this->mobile   = $data['mobile'];
+<<<<<<< HEAD
             $this->userType = $data['user'];
+=======
+            $this->userType = $data['users'];
+>>>>>>> 08c7d7c576bbda7a11b59da7902664eaf01bc4da
         }
 
 

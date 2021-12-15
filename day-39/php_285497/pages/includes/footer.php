@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <section class="bg-dark py-2 mt-5">
     <div class="container">
         <div class="row">
@@ -10,6 +11,8 @@
 
 
 
+=======
+>>>>>>> 08c7d7c576bbda7a11b59da7902664eaf01bc4da
 
 <script src="../assets/js/jquery-3.6.0.min.js"></script>
 <script src="../assets/js/bootstrap.js"></script>

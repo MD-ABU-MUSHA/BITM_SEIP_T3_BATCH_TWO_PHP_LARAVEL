@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+<<<<<<< HEAD
 Route::get('/', function () {
 //    return "Hello World";
     return view('test');
@@ -34,6 +35,28 @@ Route::get('/all-catagory', [
 Route::get('/basis/seip', [
     'uses' => 'App\Http\Controllers\TestController@basisSeip',
     'as' => 'basis'
+=======
+Route::get('/',[
+    'uses' => 'App\Http\Controllers\HomeController@index',
+    'as' => 'Bitm'
+]);
+
+
+Route::get('/about-us',[
+    'uses' => 'App\Http\Controllers\HomeController@about',
+    'as' => 'about-us'
+]);
+
+Route::get('/register-now',[
+    'uses' => 'App\Http\Controllers\HomeController@registration',
+    'as' => 'registration'
+]);
+
+
+Route::post('/registration',[
+    'uses' => 'App\Http\Controllers\HomeController@newRegister',
+    'as' => 'register'
+>>>>>>> 08c7d7c576bbda7a11b59da7902664eaf01bc4da
 ]);
 
 

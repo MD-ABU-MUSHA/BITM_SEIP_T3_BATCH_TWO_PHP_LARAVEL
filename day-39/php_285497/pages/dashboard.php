@@ -13,6 +13,7 @@ if(!isset($_SESSION['id']))
         <div class="container">
             <div class="row">
                 <div class="col-md-8 mx-auto">
+<<<<<<< HEAD
                     <div class="card card-body mb-5">
                            <h3 class="text-center mb-3">My Deshboard</h3>
 
@@ -30,6 +31,11 @@ if(!isset($_SESSION['id']))
                     </div>
 
 
+=======
+                    <div class="card card-body">
+                           <h3 class="text-center">My Deshboard</h3>
+                    </div>
+>>>>>>> 08c7d7c576bbda7a11b59da7902664eaf01bc4da
                 </div>
             </div>
         </div>

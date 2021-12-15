@@ -42,4 +42,8 @@
             </div>
         </div>
     </section>
+<<<<<<< HEAD
 <?php //include 'includes/footer.php' ;?>
+=======
+<?php include 'includes/footer.php' ;?>
+>>>>>>> 08c7d7c576bbda7a11b59da7902664eaf01bc4da
