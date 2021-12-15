@@ -9,6 +9,9 @@ class HomeController extends Controller
 {
     private $product;
     private $data;
+    private $register;
+    private $fullName;
+
 
 
 
@@ -33,5 +36,15 @@ class HomeController extends Controller
     public  function registration()
     {
         return view('registration');
+    }
+
+
+    public function newRegister(Request $request)
+    {
+
+      $this->fullName = $request->first_name.' '.$request->last_name;
+      return view('registration',['full_name' => $this->fullName]);
+
+
     }
 }

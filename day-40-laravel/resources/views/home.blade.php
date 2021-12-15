@@ -6,10 +6,10 @@
             @foreach($products as $product)
             <div class="col-md-4 mx-auto">
                 <div class="card ">
-                    <img src="{{$product['image']}}" alt="" class="card-img-top">
+                    <img src="{{asset($product['image'])}}" alt="" class="card-img-top" height="400" width=""300>
                     <div class="card-body">
-                        <h3>Product Name : {{$product['name']}}</h3>
-                        <h4>Product Price: {{$product['price']}} </h4>
+                        <h5>Product Name : {{$product['name']}}</h5>
+                        <h5>Product Price: {{$product['price']}} </h5>
                     </div>
                 </div>
             </div>

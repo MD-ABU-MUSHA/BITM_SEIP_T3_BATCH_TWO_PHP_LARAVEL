@@ -30,4 +30,9 @@ Route::get('/register-now',[
 ]);
 
 
+Route::post('/registration',[
+    'uses' => 'App\Http\Controllers\HomeController@newRegister',
+    'as' => 'register'
+]);
+
 
