@@ -23,6 +23,29 @@ Route::get('/about-us',[
     'uses' => 'App\Http\Controllers\HomeController@about',
     'as' => 'about-us'
 ]);
+Route::get('/odd-even',[
+    'uses' => 'App\Http\Controllers\HomeController@oddEven',
+    'as' => 'odd-even'
+]);
+
+Route::post('/oddEvenResult',[
+    'uses' => 'App\Http\Controllers\HomeController@oddEvenResult',
+    'as' => 'odd-even-result'
+]);
+
+
+Route::get('/count',[
+    'uses' => 'App\Http\Controllers\HomeController@count',
+    'as' => 'count'
+]);
+
+
+
+Route::post('/count',[
+    'uses' => 'App\Http\Controllers\HomeController@countResult',
+    'as' => 'count'
+]);
+
 
 Route::get('/register-now',[
     'uses' => 'App\Http\Controllers\HomeController@registration',
@@ -34,5 +57,15 @@ Route::post('/registration',[
     'uses' => 'App\Http\Controllers\HomeController@newRegister',
     'as' => 'register'
 ]);
+
+
+
+Route::get('/primeNumber',[
+    'uses' => 'App\Http\Controllers\HomeController@prime',
+    'as' => 'prime'
+]);
+
+
+
 
 

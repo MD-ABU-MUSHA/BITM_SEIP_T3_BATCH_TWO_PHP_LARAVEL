@@ -11,6 +11,11 @@ class HomeController extends Controller
     private $data;
     private $register;
     private $fullName;
+    private $i;
+    private $j;
+    private $result;
+    private $totalWord;
+    private $totalCharacter;
 
 
 
@@ -32,11 +37,60 @@ class HomeController extends Controller
         return view('about');
     }
 
+    public function oddEven(){
+        return view('oddEven');
+    }
+
+    public function oddEvenResult(Request $request){
+
+        for ($this->i = $request->starting_number; $this->i <= $request->ending_number; $this->i++){
+
+            if($request->choice == 'odd'){
+
+                if ($this->i % 2 != 0)
+                {
+                    $this->result .=$this->i.' ';
+                }
+
+            }else if ($request->choice == 'even'){
+                    if($this->i %2 == 0){
+
+                        $this->result .=$this->i.' ';
+                    }
+            }
+
+        }
+        return view('oddEven',['result' => $this->result]);
+    }
 
     public  function registration()
     {
+
         return view('registration');
     }
+
+
+
+    public function count(){
+       return view('count');
+    }
+
+
+    public function countResult(Request $request)
+    {
+       $this->totalWord  = str_word_count($request->given_string);
+       $this->totalCharacter  = strlen(str_replace(" ","", $request->given_string));
+
+
+       return view('count', [
+           'word' => "Total Word - " .$this->totalWord,
+
+           'character' => "Total Character - " .$this->totalCharacter
+
+
+       ]);
+    }
+
 
 
     public function newRegister(Request $request)
@@ -47,4 +101,10 @@ class HomeController extends Controller
 
 
     }
+
+    public function prime(){
+      return  view('prime');
+    }
+
+
 }
