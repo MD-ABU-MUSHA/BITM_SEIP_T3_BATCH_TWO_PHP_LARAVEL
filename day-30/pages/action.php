@@ -10,7 +10,7 @@ use App\classes\ImageUpload;
 
 if(isset($_POST['btn']))
 {
-    $passwordGenerate = new passwordGenerate($_POST);
+    $passwordGenerate = new PasswordGenerate($_POST);
     $result = $passwordGenerate->index();
     include ('home.php');
 }

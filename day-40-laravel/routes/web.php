@@ -13,6 +13,29 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+<<<<<<< HEAD
+Route::get('/', function () {
+//    return "Hello World";
+    return view('test');
+});
+
+
+Route::get('/bitm', [
+    'uses' => 'App\Http\Controllers\TestController@index',
+    'as' => 'Bitm'
+]);
+
+Route::get('/all-catagory', [
+    'uses' => 'App\Http\Controllers\TestController@catagory',
+    'as' => 'Bitm'
+]);
+
+
+
+Route::get('/basis/seip', [
+    'uses' => 'App\Http\Controllers\TestController@basisSeip',
+    'as' => 'basis'
+=======
 Route::get('/',[
     'uses' => 'App\Http\Controllers\HomeController@index',
     'as' => 'Bitm'
@@ -56,6 +79,7 @@ Route::get('/register-now',[
 Route::post('/registration',[
     'uses' => 'App\Http\Controllers\HomeController@newRegister',
     'as' => 'register'
+>>>>>>> 08c7d7c576bbda7a11b59da7902664eaf01bc4da
 ]);
 
 

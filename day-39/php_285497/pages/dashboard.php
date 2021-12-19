@@ -13,9 +13,29 @@ if(!isset($_SESSION['id']))
         <div class="container">
             <div class="row">
                 <div class="col-md-8 mx-auto">
+<<<<<<< HEAD
+                    <div class="card card-body mb-5">
+                           <h3 class="text-center mb-3">My Deshboard</h3>
+
+
+
+                    </div>
+                    <div class="mt-5  text-center">
+
+                        <a href="https://www.facebook.com/md.musha.3726613"><i class=" fab fa-3x fa-facebook-square mr-5"></i></a>
+                        <a href="https://github.com/MD-ABU-MUSHA"><i class="fab fa-3x fa-github mr-5"></i></a>
+                        <a href="https://github.com/MD-ABU-MUSHA"><i class="fab fa-3x fa-twitter mr-5"></i></a>
+                        <a href="https://www.linkedin.com/in/md-abu-musha-3a58b7220/"><i class="fab fa-3x fa-linkedin-in"></i></a>
+
+
+                    </div>
+
+
+=======
                     <div class="card card-body">
                            <h3 class="text-center">My Deshboard</h3>
                     </div>
+>>>>>>> 08c7d7c576bbda7a11b59da7902664eaf01bc4da
                 </div>
             </div>
         </div>
