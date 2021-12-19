@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\categoryController;
+use App\Http\Controllers\BrandController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-<<<<<<< HEAD
+
 Route::get('/', function () {
 //    return "Hello World";
     return view('test');
@@ -35,7 +36,9 @@ Route::get('/all-catagory', [
 Route::get('/basis/seip', [
     'uses' => 'App\Http\Controllers\TestController@basisSeip',
     'as' => 'basis'
-=======
+]);
+
+
 Route::get('/',[
     'uses' => 'App\Http\Controllers\HomeController@index',
     'as' => 'Bitm'
@@ -64,6 +67,12 @@ Route::get('/count',[
 
 
 
+Route::resource('/category',categoryController::class);
+Route::resource('/brand',BrandController::class);
+
+
+
+
 Route::post('/count',[
     'uses' => 'App\Http\Controllers\HomeController@countResult',
     'as' => 'count'
@@ -79,7 +88,7 @@ Route::get('/register-now',[
 Route::post('/registration',[
     'uses' => 'App\Http\Controllers\HomeController@newRegister',
     'as' => 'register'
->>>>>>> 08c7d7c576bbda7a11b59da7902664eaf01bc4da
+
 ]);
 
 

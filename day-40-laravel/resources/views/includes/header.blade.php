@@ -20,6 +20,8 @@
             <li><a href="{{ route('odd-even') }}" class="nav-link">Odd-Even</a></li>
             <li><a href="{{route('registration')}}" class="nav-link">Registration</a></li>
             <li><a href="{{route('prime')}}" class="nav-link">Prime</a></li>
+            <li><a href="{{route('category.index')}}" class="nav-link">All Category</a></li>
+            <li><a href="" class="nav-link">Manage Category</a></li>
             <li><a href="" class="nav-link">Login</a></li>
         </ul>
     </div>
