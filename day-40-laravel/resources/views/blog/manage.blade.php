@@ -30,13 +30,14 @@
                                <tbody>
                                @foreach($blogs as $blog)
                                <tr class="text-center">
-                                   <td>1</td>
+                                   <td>{{$loop->iteration}}</td>
                                    <td>{{$blog->title}}</td>
                                    <td>{{$blog->author}}</td>
                                    <td><img src="{{asset($blog->image)}}" alt="" height="200" width="200"/> </td>
                                    <td>{{$blog->description}}</td>
-
-                                   <td>1</td>
+                                   <td>
+                                       1
+                                   </td>
                                </tr>
                                    @endforeach
                                </tbody>
