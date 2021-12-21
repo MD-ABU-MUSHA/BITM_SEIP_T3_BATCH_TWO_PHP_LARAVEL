@@ -51,6 +51,22 @@ Route::get('/add-blog',[
     'as' => 'add-blog'
 ]);
 
+
+Route::post('/new-blog',[
+
+    'uses' => 'App\Http\Controllers\BlogController@create',
+    'as' => 'new-blog'
+]);
+
+
+
+Route::get('/manage-blog',[
+
+    'uses' => 'App\Http\Controllers\BlogController@manage',
+    'as' => 'manage-blog'
+]);
+
+
 //
 //Route::get('/basis/seip', [
 //    'uses' => 'App\Http\Controllers\TestController@basisSeip',

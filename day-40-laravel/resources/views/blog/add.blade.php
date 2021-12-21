@@ -13,11 +13,21 @@
                                <h3>Add New Blog Form</h3>
                            </div>
                            <div class="card-body">
-                               <form action="" method="POST">
+                               @if($message = Session::get('message'))
+                                   <h3 class="text-center text-success">{{$message}}</h3>
+                                   @endif
+                               <form action="{{route('new-blog')}}" method="POST" enctype="multipart/form-data">
+                                   @csrf
                                    <div class="form-group row">
                                        <label for="" class="col-form-label col-md-3 text-center">Blog Title</label>
                                        <div class="col-md-9">
                                            <input type="text" class="form-control" name="title">
+                                       </div>
+                                   </div>
+                                   <div class="form-group row">
+                                       <label for="" class="col-form-label col-md-3 text-center">Author Name</label>
+                                       <div class="col-md-9">
+                                           <input type="text" class="form-control" name="author">
                                        </div>
                                    </div>
                                    <div class="form-group row">
