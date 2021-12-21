@@ -22,13 +22,15 @@ class HomeController extends Controller
 
     public function index()
     {
-        $this->product = new Product();
-        $this->data  = $this->product->products();
-//        echo '<pre>';
-//        print_r($this->data);
-//        echo '</pre>';
-//        exit();
-        return view('home',['products' => $this->data]);
+        return view('front.home');
+    }
+
+    public function category(){
+        return view('front.category');
+    }
+
+    public function detail(){
+        return view('front.detail');
     }
 
 
