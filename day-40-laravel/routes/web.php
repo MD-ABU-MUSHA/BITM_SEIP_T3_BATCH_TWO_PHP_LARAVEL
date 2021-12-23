@@ -48,7 +48,8 @@ Route::get('/product-detail', [
 Route::get('/add-blog',[
 
     'uses' => 'App\Http\Controllers\BlogController@index',
-    'as' => 'add-blog'
+    'as' => 'add-blog',
+    'middleware' => ['blog'],
 ]);
 
 
@@ -65,6 +66,32 @@ Route::get('/manage-blog',[
     'uses' => 'App\Http\Controllers\BlogController@manage',
     'as' => 'manage-blog'
 ]);
+
+
+Route::get('/edit-blog/{id}',[
+
+    'uses' => 'App\Http\Controllers\BlogController@edit',
+    'as' => 'edit-blog'
+]);
+
+
+
+
+Route::post('/update-blog',[
+
+    'uses' => 'App\Http\Controllers\BlogController@update',
+    'as' => 'update-blog'
+]);
+
+Route::get('/delete-blog/{id}',[
+
+    'uses' => 'App\Http\Controllers\BlogController@delete',
+    'as' => 'delete-blog'
+]);
+
+
+
+
 
 
 //

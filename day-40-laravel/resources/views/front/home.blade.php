@@ -6,8 +6,6 @@
 
 
 @section('body')
-
-
         <section id="slider"><!--slider-->
                 <div class="container">
                         <div class="row">

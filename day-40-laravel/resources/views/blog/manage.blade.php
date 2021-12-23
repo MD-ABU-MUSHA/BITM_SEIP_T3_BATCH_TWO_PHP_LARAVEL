@@ -23,7 +23,7 @@
                                    <th>Blog Title</th>
                                    <th>Blog Author</th>
                                    <th>Blog Image</th>
-                                   <th>Blog Description</th>
+                                   <th style="width: 30%;">Blog Description</th>
                                    <th>Action</th>
                                </tr>
                                </thead>
@@ -33,10 +33,11 @@
                                    <td>{{$loop->iteration}}</td>
                                    <td>{{$blog->title}}</td>
                                    <td>{{$blog->author}}</td>
-                                   <td><img src="{{asset($blog->image)}}" alt="" height="200" width="200"/> </td>
+                                   <td><img src="{{asset($blog->image)}}" alt="" height="100" width="100"/> </td>
                                    <td>{{$blog->description}}</td>
                                    <td>
-                                       1
+                                       <a href="{{route('edit-blog',['id' => $blog->id])}}" class="btn btn-warning">Edit</a>
+                                       <a href="{{route('delete-blog',['id' => $blog->id])}}" class="btn btn-danger">Delete</a>
                                    </td>
                                </tr>
                                    @endforeach
