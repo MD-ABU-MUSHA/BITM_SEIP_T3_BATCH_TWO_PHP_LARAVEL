@@ -1,7 +1,7 @@
 @extends('front.master')
 
 @section('title')
-    Popular Ecommerce Website In Bangladesh
+    about Us
 @endsection
 
 
