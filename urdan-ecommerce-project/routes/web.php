@@ -13,6 +13,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/',[
+    'uses' => 'App\Http\Controllers\UrdanController@index',
+    'as' => '/'
+]);
+
+
+Route::get('/about-us',[
+    'uses' => 'App\Http\Controllers\UrdanController@about',
+    'as' => 'about-us'
+]);
+
+
+Route::get('/contact-us',[
+    'uses' => 'App\Http\Controllers\UrdanController@contact',
+    'as' => 'contact-us'
+]);
+
+
+
