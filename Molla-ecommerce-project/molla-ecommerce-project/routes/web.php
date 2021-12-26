@@ -39,6 +39,7 @@ Route::get('/product-detail', [
     'as'        => 'product-detail'
 ]);
 
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
