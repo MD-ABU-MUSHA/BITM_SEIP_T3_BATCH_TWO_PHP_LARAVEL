@@ -21,6 +21,7 @@
     @include('front.includes.footer')
 
     @include('front.includes.script')
+</div>
 </body>
 
 

@@ -6,6 +6,7 @@
 <script src="{{asset('/')}}assets/js/superfish.min.js"></script>
 <script src="{{asset('/')}}assets/js/owl.carousel.min.js"></script>
 <script src="{{asset('/')}}assets/js/bootstrap-input-spinner.js"></script>
+<script src="{{asset('/')}}assets/js/jquery.elevateZoom.min.js"></script>
 <script src="{{asset('/')}}assets/js/jquery.magnific-popup.min.js"></script>
 <script src="{{asset('/')}}assets/js/jquery.plugin.min.js"></script>
 <script src="{{asset('/')}}assets/js/jquery.countdown.min.js"></script>

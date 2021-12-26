@@ -201,7 +201,7 @@
                         <nav class="side-nav">
                             <ul class="menu-vertical sf-arrows">
                                 <li class="megamenu-container">
-                                    <a class="sf-with-ul" href="#">Electronics</a>
+                                    <a class="sf-with-ul" href="{{route('category-product')}}">Electronics</a>
 
                                     <div class="megamenu">
                                         <div class="row no-gutters">

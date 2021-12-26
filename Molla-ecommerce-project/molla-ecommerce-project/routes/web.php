@@ -27,3 +27,18 @@ Route::get('/contact-us', [
     'uses'      => 'App\Http\Controllers\MollaController@contact',
     'as'        => 'contact'
 ]);
+
+
+Route::get('/category-product', [
+    'uses'      => 'App\Http\Controllers\MollaController@categoryProduct',
+    'as'        => 'category-product'
+]);
+
+Route::get('/product-detail', [
+    'uses'      => 'App\Http\Controllers\MollaController@productDetail',
+    'as'        => 'product-detail'
+]);
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');

@@ -20,4 +20,15 @@ class MollaController extends Controller
     {
         return view('front.contact.contact');
     }
+
+
+    public function categoryProduct()
+    {
+        return view('front.category.category');
+    }
+
+    public function productDetail()
+    {
+        return view('front.product.detail');
+    }
 }
